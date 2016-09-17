@@ -1,12 +1,156 @@
-*.class
+# Java gitignore
+design-pattern-java/*.class
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
+design-pattern-java/.mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
-*.ear
+design-pattern-java/*.jar
+design-pattern-java/*.war
+design-pattern-java/*.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+design-pattern-java/hs_err_pid*
+
+design-pattern-java/.settings/*
+design-pattern-java/.classpath
+design-pattern-java/.gitignore
+design-pattern-java/.project
+
+
+# C++ gitignore
+# Prerequisites
+design-pattern-c++/*.d
+
+# Compiled Object files
+design-pattern-c++/*.slo
+design-pattern-c++/*.lo
+design-pattern-c++/*.o
+design-pattern-c++/*.obj
+
+# Precompiled Headers
+design-pattern-c++/*.gch
+design-pattern-c++/*.pch
+
+# Compiled Dynamic libraries
+design-pattern-c++/*.so
+design-pattern-c++/*.dylib
+design-pattern-c++/*.dll
+
+# Fortran module files
+design-pattern-c++/*.mod
+design-pattern-c++/*.smod
+
+# Compiled Static libraries
+design-pattern-c++/*.lai
+design-pattern-c++/*.la
+design-pattern-c++/*.a
+design-pattern-c++/*.lib
+
+# Executables
+design-pattern-c++/*.exe
+design-pattern-c++/*.out
+design-pattern-c++/*.app
+
+design-pattern-c++/**/Debug/*.*
+design-pattern-c++/**/Release/*.*
+design-pattern-c++/**/*.sdf
+design-pattern-c++/**/*.sln
+design-pattern-c++/**/*.suo
+design-pattern-c++/**/*.vcxproj
+design-pattern-c++/**/*.vcxproj.*
+
+# Python gitignore
+# Byte-compiled / optimized / DLL files
+design-pattern-python/**/__pycache__/*
+design-pattern-python/*.py[cod]
+design-pattern-python/*$py.class
+
+# C extensions
+design-pattern-python/*.so
+
+# Distribution / packaging
+design-pattern-python/.Python
+design-pattern-python/env/
+design-pattern-python/build/
+design-pattern-python/develop-eggs/
+design-pattern-python/dist/
+design-pattern-python/downloads/
+design-pattern-python/eggs/
+design-pattern-python/.eggs/
+design-pattern-python/lib/
+design-pattern-python/lib64/
+design-pattern-python/parts/
+design-pattern-python/sdist/
+design-pattern-python/var/
+design-pattern-python/*.egg-info/
+design-pattern-python/.installed.cfg
+design-pattern-python/*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+design-pattern-python/*.manifest
+design-pattern-python/*.spec
+
+# Installer logs
+design-pattern-python/pip-log.txt
+design-pattern-python/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+design-pattern-python/htmlcov/
+design-pattern-python/.tox/
+design-pattern-python/.coverage
+design-pattern-python/.coverage.*
+design-pattern-python/.cache
+design-pattern-python/nosetests.xml
+design-pattern-python/coverage.xml
+design-pattern-python/*,cover
+design-pattern-python/.hypothesis/
+
+# Translations
+design-pattern-python/*.mo
+design-pattern-python/*.pot
+
+# Django stuff:
+design-pattern-python/*.log
+design-pattern-python/local_settings.py
+
+# Flask stuff:
+design-pattern-python/instance/
+design-pattern-python/.webassets-cache
+
+# Scrapy stuff:
+design-pattern-python/.scrapy
+
+# Sphinx documentation
+design-pattern-python/docs/_build/
+
+# PyBuilder
+design-pattern-python/target/
+
+# IPython Notebook
+design-pattern-python/.ipynb_checkpoints
+
+# pyenv
+design-pattern-python/.python-version
+
+# celery beat schedule file
+design-pattern-python/celerybeat-schedule
+
+# dotenv
+design-pattern-python/.env
+
+# virtualenv
+design-pattern-python/.venv/
+design-pattern-python/venv/
+design-pattern-python/ENV/
+
+# Spyder project settings
+design-pattern-python/.spyderproject
+
+# Rope project settings
+design-pattern-python/.ropeproject
+
+
+design-pattern-python/.idea/*
